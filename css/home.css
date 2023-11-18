@@ -1,0 +1,125 @@
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color:#1d1160;
+      font-family: poppins, sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+/* home page styling  */
+
+    .main-container {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-evenly;
+      min-height: 100vh;
+    }
+     .game-block {
+       width: 90%;
+      height: 60px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 60px; 
+      /* box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1); */
+    }
+    .main-container h1 {
+      text-align: center;
+      padding: 20px;
+      font-weight: 900;
+      color:gold;
+    }
+    /* general styling for page links */
+    .page-btn {
+      
+    padding: 20px;
+      cursor: pointer;
+      color: #fff;
+      font-size:18px;
+      text-decoration: none;
+      text-align: center;
+      font-weight:500;
+    }
+   
+    /* game home page button */
+    
+    .back-button, .play-button{
+      background-color:red;
+    }
+   
+
+/* ul styling */
+
+    #options-list {
+      list-style: none;
+     
+      
+    }
+    
+    /* styling for back to homepage button */
+    
+    .back-button-block {
+
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      padding: 10px;
+      
+    }
+
+
+    .back-button, .play-button {
+      padding: 5px 15px;
+      border: 1px black solid;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 350px;
+      color: #ccc;
+      margin-top: 10px;
+    }
+    
+    /* styling for instruction page */
+     .game-instruction{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-color:black;
+    }
+    .game-instruction h2 {
+      color: white;
+      font-size: 32px;
+      font-weight: 400;
+      margin-top: 50px;
+    }
+    .game-instruction p {
+      color: #ccc;
+      font-size: 19px;
+      text-align: center;
+      padding: 0px 15px;
+    }
+   
+    .game-instruction .warning {
+      font-size: 18px;
+      color: red;
+      text-align: center;
+      padding: 0px 15px;
+    }
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  border-radius: 20px;
+}
+
+/* styling for question page */
+.question-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  position: relative;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100,43,115,1) 10%, rgba(4,0,4,1) 90%); 
+  border: none;
+}
+ 
+    /* styling for game title */
+    
+    .question-box h1 {
+      color:gold;
+      font-size: 35px;
+      padding: 20px;
+    }
+
+    #question-text {
+      color: aqua;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom:20px;
+      padding: 0px 20px;
+    }
+    .card-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px #ccc solid;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      height: inherit;
+    }
+    .text-style {
+      color: #fff;
+      font-size: 17px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li input {
+      margin-right: 7px;
+        cursor: pointer;
+        margin-top: 10px;
+      
+    }
+     /* button to load next question */
+     .submit-btn {
+      padding: 1px 2px;
+      border: 1px white solid;
+      border-radius: 20px;
+      outline: none;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      font-weight:bold;
+      background-color:rgb(12, 12, 233);
+      margin: 10px;
+      width:90%;
+      height: 50px;
+    }
+    /* #score {
+      font-size: 32px;
+      color: yellow;
+      font-weight: bolder;
+      text-align: center;
+    } */
+    .question-box span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #message {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      color:red;
+      font-size: 22px;
+      font-weight: bold; 
+      background-color: #fff;
+      padding: 18px ;
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      border-radius: 100%;
+
+    }
+    .history-heading {
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      flex-direction: column;
+      min-height: 100vh;
+      padding-top: 10px;
+    
+      
+    }
+    .history-heading h1 {
+      font-size: 30px;
+      color: gold;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      padding: 20px;
+      text-align: center;
+      font-weight: bolder;
+      
+    }
+    
+     .correct{ 
+      background-color:#ccc ;
+      padding: 20px;
+      border-radius:10px ;
+      text-align: center;
+      min-width: 100%;
+      box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+      height: 50px;
+       display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row;
+      margin-bottom: 30px;
+    }
+    #incorrect {
+      color: #e00b0b;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #attempts{
+      color: green;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #score{
+      color:gold; 
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    #correct{
+      color: black;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    .missed-que {
+      background-color: #033b3b;
+      text-align: center;
+      color: white;
+      font-size: 17px;
+      padding: 0px 20px;
+      line-height: 2em;
+      min-height: 100vh;
+    }
+    
+    
+      
